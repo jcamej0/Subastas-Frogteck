@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  background: #80ff72;
+  height: 5em;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.navbar-title {
+  margin: unset;
+  flex: 1 1 500px;
+  max-width: 100%;
+  min-width: 500px;
+}
+
+.nav {
+  flex: 1 1 500px;
+  max-width: 100%;
+  min-width: 500px;
+}
+
+.nav-item {
+  flex: 1;
+}

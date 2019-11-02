@@ -1,0 +1,33 @@
+.container {
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  flex: 1 1 250px;
+  height: 50px;
+  background: #fff07c;
+  margin: 1em;
+  text-align: center;
+  min-width: 250px;
+  max-width: 250px;
+  flex: 1 1 250px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-bottom: 1rem;
+  min-height: 17em;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon {
+  width: 20%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
